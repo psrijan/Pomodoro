@@ -1,0 +1,72 @@
+<html>
+  <head>
+    <script type="text/javascript" src="javascript/script.js"></script>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"></link>
+    <link href="css/myCss.css" rel="stylesheet" type="text/css"> </link>
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display+SC" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script type="text/javascript" src="javascript/jquery-3.2.1.min.js"></script>
+    
+  </head>
+
+  <body>
+    <div class="container" >
+      <div class="heading-section"> 
+        <h1> FreeCodeCamp Pomodoro Clock </h1>
+      </div>
+
+      <div class="work-setting">
+        <div class = "row work-setting-text"> 
+        <p style="text-align: center;"> Session Period </p>
+        </div> 
+        <div class="row">
+          <div class="col-sm-3 button-area" onclick="timeCalc(1)">
+          <p class="button">-</p>
+            <!-- <p> <i class="fa fa-caret-square-o-left fa-1x button" aria-hidden="true"></i> </p> -->
+          </div>
+          <div class="col-sm-6">
+            <p class="work-time-text">25</p>
+          </div>
+          <div class="col-sm-3 button-area" onclick="timeCalc(2)">
+            <p class="button">+</p>
+            <!-- <p> <i class="fa fa-caret-square-o-right fa-1x button " aria-hidden="true"></i> </p> -->
+          </div>
+        </div>
+      </div>
+
+      <div class="clock-values">
+        <div class="row">
+            <div class="row"> 
+            </div>
+
+            <div class="row"> 
+              <button class="btn btn-danger"> START </button>
+            </div>
+        </div>
+      </div>
+
+      <div class="play-setting">
+          <div class="row">
+          <p style="text-align: center"> Rest Period </p>
+          </div>
+          <div class="row">
+          <div class="col-sm-3 button-area" onclick="timeCalc(3)">
+            <p class="button">-</p>
+            <!-- <p> <i class="fa fa-caret-square-o-left fa-1x button" aria-hidden="true"></i> </p> -->
+          </div>
+          <div class="col-sm-6 ">
+            <p class="play-time-text">5</p>
+          </div>
+          <div class="col-sm-3 button-area" onclick="timeCalc(4)">
+             <!-- <p> <i class="fa fa-caret-square-o-right fa-1x button" aria-hidden="true"></i> </p> -->
+             <p class="button">+</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footing-section"> 
+      <p> <i class="fa fa-copyright"> </i>  Srijan Pandey 2017 </p>
+    </div>
+    
+  </body>
+</html>
